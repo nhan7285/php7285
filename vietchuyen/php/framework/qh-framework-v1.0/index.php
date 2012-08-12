@@ -1,1 +1,0 @@
-This is qh-framework-v1.0
