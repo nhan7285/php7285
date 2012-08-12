@@ -1,0 +1,33 @@
+table{
+	
+}
+.current{
+	color:red;
+	text-decoration: none;
+	border:1px solid red !important;
+}
+.paging{
+	display:inline-block;
+	border:1px solid blue;
+	width:60px;
+	margin-top: 5px;
+}
+.paging-control{
+	display:inline-block;
+	border:1px solid blue;
+	width:100px;
+	text-decoration: none;
+}
+.paging-control-disable{
+	display:inline-block;
+	width:100px;
+}
+.button{
+
+}
+label{
+	margin-right: 5px;
+}
+.number{
+	text-align: center;
+}
