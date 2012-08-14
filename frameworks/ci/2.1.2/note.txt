@@ -1,0 +1,14 @@
+CI paging
+CI, ko dùng $_GET mà dùng segment
+$start = $this->uri->segment(3);
+//$this->input->post('post');
+$this->MDemo->getuser($config['per-page'],$start);
+CI session
+$this->load->library('session');
+$data=array(
+	"sess_user" => "admin",
+	"sess_level" => "2",
+))
+Tạo:  $this->session->set_userdata($data)
+Dùng: $this->session->userdata("ses_user")
+Hủy:  $this->session->sess_destroy(); (ALL)

@@ -1,0 +1,62 @@
+.name, .amount, .using, .type {
+				width: 150px;
+			}
+			.lb_name, .lb_amount, .lb_using, .lb_type {
+				float: left;
+				width: 150px;
+				margin-right: 10px;
+				font-weight: bold;
+			}
+			.lb_stt {
+				float: left;
+				width: 40px;
+				text-align: center;
+				font-weight: bold;
+			}
+
+			.del {
+				margin-left: 25px;
+			}
+			#delAll {
+				margin-left: 5px;
+			}
+			.clear {
+				clear: both;
+				height: 10px;
+			}
+			.medicine {
+				margin-bottom: 5px;
+				list-style-type: decimal;
+				list-style-position: outside;
+			}
+			.medicine_header {
+
+			}
+			#resultTable {
+
+			}
+			#colSTT {
+				width: 50px;
+			}
+			#resultTable .data {
+				width: 200px;
+			}
+			.stt, .sl, .lieudung, .loai {
+				text-align: center;
+			}
+			#resultTable tr td {
+				padding: 5px;
+			}
+
+			.amount {
+				text-align: center;
+			}
+			.same {
+				background-color: #00ff00;
+			}
+			.note {
+				text-align: center;
+			}
+			.del {
+				display: inline;
+			}
